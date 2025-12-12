@@ -41,3 +41,16 @@ Console.WriteLine($"Machine_failure: {modelOutput.Machine_failure}");
 
 Console.WriteLine($"End of process, press any key to finish");
 Console.ReadKey();
+
+/*
+ Para peticion en swagger
+ {
+  "udi": 2.0,
+  "product_ID": "L47181",
+  "air_temperature": 298.2,
+  "process_temperature": 300.7,
+  "rotational_speed": 1408,
+  "torque": 46.3,
+  "tool_wear": 3
+}
+ */ 
